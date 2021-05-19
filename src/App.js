@@ -1,9 +1,12 @@
 import './App.css';
+import { ReactRouterDom } from './routers/ReactRouterDom';
 
 function App() {
   return (
     <div className="App">
-      <p>Testing!</p>
+      <p>Choose your page!</p>
+
+      <ReactRouterDom />
     </div>
   );
 }
